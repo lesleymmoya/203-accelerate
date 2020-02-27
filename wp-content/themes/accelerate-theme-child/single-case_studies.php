@@ -16,7 +16,8 @@ get_header(); ?>
 
 	<div id="primary" class="site-content sidebar">
 		<div class="main-content" role="main">
-			<?php while ( have_posts() ) : the_post(); ?>
+
+    	<?php while ( have_posts() ) : the_post();
         $services = get_field('services');
         $client = get_field('client');
         $link = get_field('site_link');
@@ -37,17 +38,17 @@ get_header(); ?>
       </aside>
 
         <div class="case-study-images">
-          <?php if($image_1) { ?>
+          <?php if($image_1) {
             <img src="<?php echo $image_1"; ?> />
-          <?php } ?>
+         } ?>
 
-          <?php if($image_2) { ?>
+          <?php if($image_2) {
             <img src="<?php echo $image_2"; ?> />
-          <?php } ?>
+         } ?>
 
-          <?php if($image_3) { ?>
+          <?php if($image_3) {
             <img src="<?php echo $image_3"; ?> />
-          <?php } ?>
+         } ?>
         </div>
      </article>
   <?php endwhile; // end of the loop. ?>
