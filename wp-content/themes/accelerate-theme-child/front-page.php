@@ -23,19 +23,44 @@ get_header(); ?>
 		</div><!-- .main-content -->
 	</div><!-- #primary -->
 
-<!--RECENT BLOG POST-->
+<!--FEATURED WORK-->
+<section class="featured-work">
+	<div class="site-content">
+		<h4>Featured Work</h4>
+		<ul class="homepage-featured-work">
+			<!-- the loop -->
+			<?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
+			<?php while ( have_posts() ) : the_post();
+					$image_1 = get_field("image_1");
+					$size = "medium";
+			?>
+			<li class="individual-featured-work">
+				<a href="<?php the_permalink(); ?>">
+				<figure>
+					<?php echo wp_get_attachment_image($image_1, $size); ?>
+				</figure>
+				<h3><?php the_title(); ?></h3>
+			</a>
+		</li>
+		 <?php endwhile; ?>
+	 	<?php wp_reset_query(); ?>
+	  </ul>
+	</div>
+</section>
+
+<!-- RECENT BLOG POST -->
 	<section class="recent-posts">
-<div class="site-content">
- <div class="blog-post">
-		<h4>From the Blog</h4>
-		<?php query_posts('posts_per_page=1'); ?>
-		<?php while ( have_posts() ) : the_post(); ?>
-			<h3><?php the_title(); ?></h3>
-		 <?php the_excerpt(); ?>
-<?php endwhile; ?>
-<?php wp_reset_query(); ?>
-</div>
-</div>
+		<div class="site-content">
+ 			<div class="blog-post">
+				<h4>From the Blog</h4>
+				<?php query_posts('posts_per_page=1'); ?>
+				<?php while ( have_posts() ) : the_post(); ?>
+						<h3><?php the_title(); ?></h3>
+		 				<?php the_excerpt(); ?>
+				<?php endwhile; ?>
+   <?php wp_reset_query(); ?>
+  </div>
+ </div>
 </section>
 
 <?php get_footer(); ?>

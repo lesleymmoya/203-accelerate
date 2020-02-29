@@ -21,6 +21,36 @@ Text Domain:  accelerate-theme-child
     background: none repeat scroll 0 0 #45ac9d;
 }
 
+/* featured work on homepage */
+.featured-work .site-content {
+    margin: 6em auto;
+}
+.featured-work h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 2.25em;
+}
+.homepage-featured-work {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+.individual-featured-work {
+    margin-bottom: 2em;
+}
+.individual-featured-work a {
+	display: block;
+}
+.individual-featured-work h3 {
+    font: 500 1em/1.75 'Open Sans', Arial, sans-serif;
+}
+
+
+
+
 /* BLOG POST ON HOMEPAGE */
 
 .blog-post {
