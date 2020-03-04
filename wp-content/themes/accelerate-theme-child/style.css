@@ -41,7 +41,7 @@ Text Domain:  accelerate-theme-child
 	width: 100%;
 }
 .individual-featured-work {
-    margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 .individual-featured-work a {
 	display: block;
@@ -104,17 +104,30 @@ div.case-study-images {
     margin: 2em 0;
 }
 
-.read-more-link .case-study-sidebar a {
-  color: pink;
-}
-
 div.case-study-images {
 	margin-top: 3em;
   padding-left: 4em;
 }
 div.case-study-images img {
-    width: 100%;
+  width: 100%;
 	margin-bottom: 3.125em;
 	border: 1px solid #dddddd;
 }
 /*END Case Studies*/
+
+/* footer */
+
+footer ul li {
+  width: 1.5em;
+  height: 1.5em;
+  color: white;
+  background-color: #3B3B3B;
+  border-radius: 50%;
+  list-style: none;
+  float: left;
+  margin-right: .5em;
+  text-align: center;
+
+
+
+}
