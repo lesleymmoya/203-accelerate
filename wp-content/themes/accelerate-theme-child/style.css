@@ -22,11 +22,13 @@ Text Domain:  accelerate-theme-child
 }
 
 /* featured work on homepage */
-.featured-work .site-content {
-    margin: 6em auto;
+.featured-work .site-content ul li {
+    margin: 2em auto;
+    padding-right: 1em;
+    float: left;
 }
 .featured-work h4 {
-    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 2.25em;
@@ -84,3 +86,35 @@ div.case-study-images {
   float: left;
   width: 600px;
 }
+
+.case-study {
+    clear: both;
+}
+.case-study h2 {
+    font: 700 1.5em/1.5 'Open Sans Semibold';
+}
+.case-study h4 {
+    font: 400 .875em/1.25 'Open Sans';
+    margin: 1em 0;
+}
+.case-study h4 span {
+    color: #878787;
+}
+.case-study-sidebar p {
+    margin: 2em 0;
+}
+
+.read-more-link .case-study-sidebar a {
+  color: pink;
+}
+
+div.case-study-images {
+	margin-top: 3em;
+  padding-left: 4em;
+}
+div.case-study-images img {
+    width: 100%;
+	margin-bottom: 3.125em;
+	border: 1px solid #dddddd;
+}
+/*END Case Studies*/
