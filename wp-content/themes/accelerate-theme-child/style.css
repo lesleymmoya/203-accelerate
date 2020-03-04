@@ -120,14 +120,14 @@ div.case-study-images img {
 footer ul li {
   width: 1.5em;
   height: 1.5em;
-  color: white;
   background-color: #3B3B3B;
   border-radius: 50%;
   list-style: none;
   float: left;
   margin-right: .5em;
   text-align: center;
+}
 
-
-
+footer i {
+  color: white;
 }
