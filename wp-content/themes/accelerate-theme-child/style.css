@@ -115,6 +115,39 @@ div.case-study-images img {
 }
 /*END Case Studies*/
 
+/* contact form*/
+
+/*background-color: pink;
+box-sizing: border-box;
+margin: 40px;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+} */
+
+ div #nf-field-1-wrap .field-wrap .textbox-wrap {
+  background-color: purple;
+  float: left;
+}
+
+div .nf-form-wrap {
+  background-color: teal;
+  margin: 75px;
+}
+
+/*div.maincontent h2 {
+  background-color: blue;
+  box-sizing: border-box;
+  margin: 40px;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+} */
+
 /* footer */
 
 footer ul li {
