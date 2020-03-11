@@ -127,15 +127,15 @@ font: inherit;
 vertical-align: baseline;
 } */
 
- div #nf-field-1-wrap .field-wrap .textbox-wrap {
+/* div #nf-field-1-wrap .field-wrap .textbox-wrap {
   background-color: purple;
   float: left;
-}
+} */
 
-div .nf-form-wrap {
+/*div .nf-form-wrap {
   background-color: teal;
   margin: 75px;
-}
+} */
 
 /*div.maincontent h2 {
   background-color: blue;
