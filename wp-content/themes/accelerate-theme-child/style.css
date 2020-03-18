@@ -117,36 +117,74 @@ div.case-study-images img {
 
 /* contact form*/
 
-/*background-color: pink;
-box-sizing: border-box;
-margin: 40px;
-padding: 0;
-border: 0;
-font-size: 100%;
-font: inherit;
-vertical-align: baseline;
-} */
+.ninja_forms {
+  width: 725px;
+}
 
-/* div #nf-field-1-wrap .field-wrap .textbox-wrap {
-  background-color: purple;
+ #nf-field-1-container {
+  width: 50%;
   float: left;
-} */
+}
 
-/*div .nf-form-wrap {
-  background-color: teal;
-  margin: 75px;
-} */
+#nf-field-2-container {
+    width: 50%;
+    float: left;
+    clear: none;
+    padding-left: 1em;
+}
 
-/*div.maincontent h2 {
-  background-color: blue;
-  box-sizing: border-box;
-  margin: 40px;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-} */
+.submit-wrap {
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+#nf-field-4 {
+    background-color:  #45ac9d;
+    float: right;
+}
+
+
+
+
+/* our services */
+
+ /*.hero-text h2 {
+  color: white;
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  text-align: center;
+  margin-left: 500px;
+  margin-right: 500px;
+  font-weight: 400;
+}
+
+.our-services-header h2 {
+  text-align: center;
+}
+
+.individial-service-descriptions {
+
+}
+.content-strategy-icon {
+ float: left;
+ margin-right: 5em;
+}
+
+.content-strategy-text h4 {
+  margin-left: 5em;
+  text-align: left;
+}
+ .influencer_mapping-text h4 {
+   float: left;
+   margin-right: 5em;
+   text-align: left;
+ }
+
+.influencer_mapping-icon {
+  float: right;
+}
 
 /* footer */
 
