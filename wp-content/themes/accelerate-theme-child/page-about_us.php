@@ -41,50 +41,25 @@ get_header(); ?>
           $image_1 = get_field('image_1');
 					$size = "thumbnail";
 			?>
+      
  </div>
 
 
 <figure>
   <article>
 			<div class="individual-service-descriptions">
-        <div class="content-strategy-icon">
+        <div class="service-icon">
             <?php echo wp_get_attachment_image( $image_1, $size ); ?>
         </div>
-        <div class="content-strategy-text">
+        <div class="service-text">
             <h4><?php echo $title; ?></h4>
             <h5><?php echo $description; ?></h5>
         </div>
-
-        <div class="influencer-mapping-text">
-            <h4<?php echo $title; ?></h4>
-            <h5><?php echo $description; ?></h5>
-       </div>
-          <div class="influencer-mapping-icon" >
-            <?php echo wp_get_attachment_image( $image_1, $size ); ?>
-        </div>
-
-          <div class="social-media-strategy-icon">
-            <?php echo wp_get_attachment_image( $image_1, $size ); ?>
-        </div>
-          <div class="social-media-strategy-text">
-            <h4><?php echo $title; ?></h4>
-            <h5><?php echo $description; ?></h5>
-        </div>
-
-          <div class="design-and-development-text">
-          <h4><?php echo $title; ?></h4>
-          <h5><?php echo $description; ?></h5>
-        </div>
-        <div class="design-and-development-icon">
-          <?php echo wp_get_attachment_image( $image_1, $size ); ?>
-      </div>
-    </div>
   </article>
 </figure>
-
-		 <?php endwhile; ?>
-
-  </div>
+    <?php endwhile; ?>
+    <?php wp_reset_query(); ?>
+	</div>
 </section>
 
 <!-- Contact Us Button -->
