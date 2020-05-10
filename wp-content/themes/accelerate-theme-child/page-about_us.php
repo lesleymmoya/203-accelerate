@@ -19,11 +19,13 @@ get_header(); ?>
 
 	<div id="primary" class="home-page hero-content">
 		<div class="main-content" role="main">
+      <div class="hero-text">
 			<?php while ( have_posts() ) : the_post(); ?>
       <?php the_content(); ?>
 			<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
 	</div><!-- #primary -->
+</div>
 
 
 <!--our services-->
@@ -41,7 +43,7 @@ get_header(); ?>
           $image_1 = get_field('image_1');
 					$size = "thumbnail";
 			?>
-      
+
  </div>
 
 

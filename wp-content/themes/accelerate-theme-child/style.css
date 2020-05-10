@@ -149,9 +149,9 @@ textarea {
 
 
 
-/* our services */
+/*ABOUT PAGE*/
 
- /*.hero-text h2 {
+ .hero-text p {
   color: white;
   font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
   text-align: center;
@@ -160,31 +160,57 @@ textarea {
   font-weight: 400;
 }
 
-.our-services-header h2 {
+ h2 {
   text-align: center;
-}
-
-.individial-service-descriptions {
+  color: purple;
 
 }
-.content-strategy-icon {
- float: left;
+
+ p {
+ text-align: center;
+ color: blue;
+}
+
+.individual-service-descriptions {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5em;
+}
+
+.service-icon {
+ flex-direction: row;
+
+
  margin-right: 5em;
+
 }
 
-.content-strategy-text h4 {
-  margin-left: 5em;
+.content-strategy-icon {
+  color: black;
+
+}
+
+.service-text h4 {
+  flex-direction: row;
+
+  margin-left: 10em;
   text-align: left;
 }
- .influencer_mapping-text h4 {
-   float: left;
-   margin-right: 5em;
-   text-align: left;
- }
 
-.influencer_mapping-icon {
-  float: right;
+.content-strategy-title h4 {
+  color: yellow;
 }
+
+.service-text h5 {
+  flex-direction: row;
+  margin-left: 10em;
+  text-align: left;
+  color: pink;
+}
+
+
+
+
 
 /* footer */
 
