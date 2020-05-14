@@ -170,12 +170,11 @@ textarea {
  color: blue;
 }
 
-.services ul {
-  list-style: none;
+.services  {
 
 }
 
-.individual-service-description li{
+.individual-service-description {
   display: flex;
   justify-content: space-between;
   margin-bottom: 60px;
@@ -188,6 +187,7 @@ textarea {
 
 figure .service-icon {
   width: 50%;
+  margin-left: 50px;
 }
  .service-icon:nth-child(odd) {
   flex-direction: row;
@@ -207,8 +207,8 @@ figure .service-icon {
 }*/
 
 .service-text h4:nth-child(even) {
-flex-direction: row-reverse;
-
+  flex-direction: row-reverse;
+  margin-left: 75px;
 
   width: 50%
 

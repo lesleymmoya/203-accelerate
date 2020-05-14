@@ -49,8 +49,8 @@ get_header(); ?>
 
 
   <section>
-		<ul class="services">
-       <li class="individual-service-descriptons">
+		<class="services">
+       <class="individual-service-descriptons">
         <figure class="service-icon">
             <?php echo wp_get_attachment_image( $image_1, $size ); ?>
         </figure>
@@ -58,8 +58,6 @@ get_header(); ?>
             <h4><?php echo $title; ?></h4>
             <h5><?php echo $description; ?></h5>
         </article>
-			</li>
-   </ul>
 </section>
 <?php endwhile; ?>
 <?php wp_reset_query(); ?>
