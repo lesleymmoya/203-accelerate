@@ -163,7 +163,6 @@ textarea {
  h2 {
   text-align: center;
   color: purple;
-
 }
 
  p {
@@ -171,42 +170,63 @@ textarea {
  color: blue;
 }
 
-.individual-service-descriptions {
+.services ul {
+  list-style: none;
+
+}
+
+.individual-service-description li{
   display: flex;
-  flex-wrap: wrap;
-  margin: 5em;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  width: 50%;
 }
 
-.service-icon {
- flex-direction: row;
+.individual-service-descriptions  {
+  flex-direction: row-reverse;
+}
 
+figure .service-icon {
+  width: 50%;
+}
+ .service-icon:nth-child(odd) {
+  flex-direction: row;
+}
 
- margin-right: 5em;
+.service-icon figure img {
+ list-style-type: none;
+ idth: 50%;
+
 
 }
 
-.content-strategy-icon {
-  color: black;
-
-}
-
-.service-text h4 {
+/*.service-text h4,h5:nth-child(even){
+  display: flex;
   flex-direction: row;
 
-  margin-left: 10em;
-  text-align: left;
-}
+}*/
 
-.content-strategy-title h4 {
-  color: yellow;
+.service-text h4:nth-child(even) {
+flex-direction: row-reverse;
+
+
+  width: 50%
+
+  text-align: left;
 }
 
 .service-text h5 {
-  flex-direction: row;
-  margin-left: 10em;
+
+
+
+
+  width: 50%;
+
+
   text-align: left;
-  color: pink;
+
 }
+
 
 
 

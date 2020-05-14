@@ -43,26 +43,26 @@ get_header(); ?>
           $image_1 = get_field('image_1');
 					$size = "thumbnail";
 			?>
-
  </div>
+</section>
 
 
-<figure>
-  <article>
-			<div class="individual-service-descriptions">
-        <div class="service-icon">
+
+  <section>
+		<ul class="services">
+       <li class="individual-service-descriptons">
+        <figure class="service-icon">
             <?php echo wp_get_attachment_image( $image_1, $size ); ?>
-        </div>
-        <div class="service-text">
+        </figure>
+        <article class="service-text">
             <h4><?php echo $title; ?></h4>
             <h5><?php echo $description; ?></h5>
-        </div>
-  </article>
-</figure>
-    <?php endwhile; ?>
-    <?php wp_reset_query(); ?>
-	</div>
+        </article>
+			</li>
+   </ul>
 </section>
+<?php endwhile; ?>
+<?php wp_reset_query(); ?>
 
 <!-- Contact Us Button -->
 	<section class="contact">
